@@ -1,1 +1,22 @@
+<!doctype>
+<html>
+  <head>
+    <ttle>
+    My First webpage
+    </ttle>
+  </head>
 
+  <body>
+    <h2> Welcome to JS coding </h2>
+
+    <button>Change Title</button>
+
+    <script>
+    const title = document.getElementById('title');
+      const btn = document.getElementById('btn');
+
+      btn.addEventListener('click', ()=>{ console.log(title.innerHTML);
+      })
+    </script>
+  </body>
+</html>
